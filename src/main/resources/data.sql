@@ -1,0 +1,5 @@
+insert into users (id, first_name, last_name, email, password) values (1, 'admin', 'user', 'admin.user@yopmail.com', '$2y$10$PjcncFTpNAs/ieUwVmHum.gTCPF36nkH256Ek2k0uP24E8aIXcF3a')
+insert into user_roles (user_id, role) values (1, 'USER')
+insert into user_roles (user_id, role) values (1, 'ADMIN')
+insert into users (id, first_name, last_name, email, password) values (2, 'simple', 'user', 'simple.user@yopmail.com', '$2y$10$lbg.91AGulMlvLxd8V6aNepJxfyfoa2behbZC3raIWiP8BmKTg5IW')
+insert into user_roles (user_id, role) values (2, 'USER')
